@@ -1,26 +1,24 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ESNext",
+    "jsx": "react",
+    "lib": ["ESNext", "DOM", "DOM.Iterable", "WebWorker"],
     "useDefineForClassFields": true,
+
+    "experimentalDecorators": true,
     "module": "ESNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "skipLibCheck": true,
 
-    /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+
     "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": true,
+    "allowImportingTsExtensions": true,
 
-    /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strictPropertyInitialization": false,
     "noFallthroughCasesInSwitch": true,
-
-    /** univer plugin */
-    "experimentalDecorators": true
+    "noEmit": true,
+    "isolatedModules": false,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
