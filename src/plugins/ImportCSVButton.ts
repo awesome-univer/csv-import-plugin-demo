@@ -4,6 +4,8 @@ import {
   ICommandService,
   IUniverInstanceService,
   Plugin,
+  UniverInstanceType,
+  Workbook,
 } from "@univerjs/core";
 import { SetRangeValuesCommand } from "@univerjs/sheets";
 import {
@@ -74,6 +76,8 @@ const parseCSV2UniverData = (csv: string[][]): ICellData[][] => {
  * A simple Plugin example, show how to write a plugin.
  */
 class ImportCSVButtonPlugin extends Plugin {
+
+  static override pluginName = "import-csv-plugin"
   constructor (
     // inject injector, required
     @Inject(Injector) override readonly _injector: Injector,
@@ -84,8 +88,7 @@ class ImportCSVButtonPlugin extends Plugin {
     // inject component manager, to register icon component
     @Inject(ComponentManager) private readonly componentManager: ComponentManager,
   ) {
-    // plugin id
-    super("import-csv-plugin");
+    super();
   }
 
   /**
@@ -118,8 +121,9 @@ class ImportCSVButtonPlugin extends Plugin {
         // inject univer instance service
         const univer = accessor.get(IUniverInstanceService);
         const commandService = accessor.get(ICommandService);
+
         // get current sheet
-        const sheet = univer.getCurrentUniverSheetInstance().getActiveSheet();
+        const sheet = univer.getCurrentUnitForType<Workbook>(UniverInstanceType.UNIVER_SHEET)!.getActiveSheet();
         // wait user select csv file
         waitUserSelectCSVFile(({ data, rowsCount, colsCount }) => {
           // set sheet size
