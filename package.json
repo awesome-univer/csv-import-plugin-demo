@@ -18,7 +18,7 @@
     "@univerjs/engine-formula": "^0.1.12",
     "@univerjs/engine-numfmt": "^0.1.12",
     "@univerjs/engine-render": "^0.1.12",
-    "@univerjs/icons": "^0.1.52",
+    "@univerjs/icons": "^0.1.53",
     "@univerjs/sheets": "^0.1.12",
     "@univerjs/sheets-formula": "^0.1.12",
     "@univerjs/sheets-numfmt": "^0.1.12",
