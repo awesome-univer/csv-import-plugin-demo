@@ -79,6 +79,7 @@ class ImportCSVButtonPlugin extends Plugin {
 
   static override pluginName = "import-csv-plugin"
   constructor (
+    _config: null,
     // inject injector, required
     @Inject(Injector) override readonly _injector: Injector,
     // inject menu service, to add toolbar button
@@ -112,7 +113,7 @@ class ImportCSVButtonPlugin extends Plugin {
       group: MenuGroup.CONTEXT_MENU_DATA,
       positions: [MenuPosition.TOOLBAR_START],
     };
-    this.menuService.addMenuItem(menuItem);
+    this.menuService.addMenuItem(menuItem, {});
 
     const command = {
       type: CommandType.OPERATION,
