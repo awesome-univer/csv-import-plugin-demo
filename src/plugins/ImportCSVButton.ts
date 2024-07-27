@@ -1,12 +1,16 @@
 import {
   CommandType,
   ICellData,
+  ICommand,
   ICommandService,
   IUniverInstanceService,
+  Inject,
+  Injector,
   Plugin,
   UniverInstanceType,
   Workbook,
 } from "@univerjs/core";
+
 import { SetRangeValuesCommand } from "@univerjs/sheets";
 import {
   ComponentManager,
@@ -15,7 +19,6 @@ import {
   MenuItemType,
   MenuPosition,
 } from "@univerjs/ui";
-import { IAccessor, Inject, Injector } from "@wendellhu/redi";
 import { FolderSingle } from '@univerjs/icons';
 /**
  * wait user select csv file
@@ -115,10 +118,10 @@ class ImportCSVButtonPlugin extends Plugin {
     };
     this.menuService.addMenuItem(menuItem, {});
 
-    const command = {
+    const command: ICommand = {
       type: CommandType.OPERATION,
       id: buttonId,
-      handler: (accessor: IAccessor) => {
+      handler: (accessor) => {
         // inject univer instance service
         const univer = accessor.get(IUniverInstanceService);
         const commandService = accessor.get(ICommandService);
