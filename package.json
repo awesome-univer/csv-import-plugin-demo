@@ -23,12 +23,11 @@
     "@univerjs/sheets-formula": "^0.2.5",
     "@univerjs/sheets-numfmt": "^0.2.5",
     "@univerjs/sheets-ui": "^0.2.5",
-    "@univerjs/ui": "^0.2.5",
-    "@wendellhu/redi": "^0.15.2"
+    "@univerjs/ui": "^0.2.5"
   },
   "devDependencies": {
     "@univerjs/vite-plugin": "^0.5.0",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.12"
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
   }
 }

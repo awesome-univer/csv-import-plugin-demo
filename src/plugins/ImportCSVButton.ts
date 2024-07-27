@@ -20,6 +20,7 @@ import {
   MenuPosition,
 } from "@univerjs/ui";
 import { FolderSingle } from '@univerjs/icons';
+
 /**
  * wait user select csv file
  */
@@ -116,6 +117,7 @@ class ImportCSVButtonPlugin extends Plugin {
       group: MenuGroup.CONTEXT_MENU_DATA,
       positions: [MenuPosition.TOOLBAR_START],
     };
+
     this.menuService.addMenuItem(menuItem, {});
 
     const command: ICommand = {
@@ -148,6 +150,7 @@ class ImportCSVButtonPlugin extends Plugin {
         return true;
       },
     };
+
     this.commandService.registerCommand(command);
   }
 }
