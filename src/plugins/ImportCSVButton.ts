@@ -14,10 +14,9 @@ import {
 import { SetRangeValuesCommand } from "@univerjs/sheets";
 import {
   ComponentManager,
-  IMenuService,
-  MenuGroup,
+  IMenuManagerService,
   MenuItemType,
-  MenuPosition,
+  RibbonStartGroup,
 } from "@univerjs/ui";
 import { FolderSingle } from '@univerjs/icons';
 
@@ -80,14 +79,14 @@ const parseCSV2UniverData = (csv: string[][]): ICellData[][] => {
  * A simple Plugin example, show how to write a plugin.
  */
 class ImportCSVButtonPlugin extends Plugin {
+  static pluginName = "import-csv-plugin"
 
-  static override pluginName = "import-csv-plugin"
   constructor (
     _config: null,
     // inject injector, required
-    @Inject(Injector) override readonly _injector: Injector,
+    @Inject(Injector) readonly _injector: Injector,
     // inject menu service, to add toolbar button
-    @Inject(IMenuService) private menuService: IMenuService,
+    @Inject(IMenuManagerService) private readonly menuManagerService: IMenuManagerService,
     // inject command service, to register command handler
     @Inject(ICommandService) private readonly commandService: ICommandService,
     // inject component manager, to register icon component
@@ -107,18 +106,6 @@ class ImportCSVButtonPlugin extends Plugin {
     this.componentManager.register("FolderSingle", FolderSingle);
 
     const buttonId = "import-csv-button";
-
-    const menuItem = {
-      id: buttonId,
-      title: "Import CSV",
-      tooltip: "Import CSV",
-      icon: "FolderSingle", // icon name
-      type: MenuItemType.BUTTON,
-      group: MenuGroup.CONTEXT_MENU_DATA,
-      positions: [MenuPosition.TOOLBAR_START],
-    };
-
-    this.menuService.addMenuItem(menuItem, {});
 
     const command: ICommand = {
       type: CommandType.OPERATION,
@@ -150,6 +137,23 @@ class ImportCSVButtonPlugin extends Plugin {
         return true;
       },
     };
+
+    const menuItemFactory = () => ({
+      id: buttonId,
+      title: "Import CSV",
+      tooltip: "Import CSV",
+      icon: "FolderSingle", // icon name
+      type: MenuItemType.BUTTON,
+    });
+
+    this.menuManagerService.mergeMenu({
+      [RibbonStartGroup.OTHERS]: {
+        [buttonId]: {
+            order: 10,
+            menuItemFactory
+        }
+      },
+    })
 
     this.commandService.registerCommand(command);
   }
