@@ -27,7 +27,7 @@
     "@univerjs/ui": "0.4.2"
   },
   "devDependencies": {
-    "@univerjs/vite-plugin": "^0.5.0",
+    "@univerjs/vite-plugin": "^0.5.1",
     "typescript": "^5.6.2",
     "vite": "^5.4.8"
   }
