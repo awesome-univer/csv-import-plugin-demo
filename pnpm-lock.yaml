@@ -660,7 +660,7 @@ packages:
       rc-input: 1.6.3(react-dom@18.3.1)(react@18.3.1)
       rc-input-number: 9.3.0(react-dom@18.3.1)(react@18.3.1)
       rc-menu: 9.16.0(react-dom@18.3.1)(react@18.3.1)
-      rc-picker: 4.8.0(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
+      rc-picker: 4.8.1(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       rc-segmented: 2.5.0(react-dom@18.3.1)(react@18.3.1)
       rc-select: 14.16.3(react-dom@18.3.1)(react@18.3.1)
       rc-textarea: 1.8.2(react-dom@18.3.1)(react@18.3.1)
@@ -1496,8 +1496,8 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /rc-picker@4.8.0(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-ZiSVWXj7M5V0bZASvAsxTPx11MXMeqILX9rxdy8vg2EYAQqnEDfhWSw8AeI7GoegmrEYokWMkIKj0cKxVdTzBg==}
+  /rc-picker@4.8.1(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-lj9hXXMSkbjFUIhfQh8XH698ybxnoBOfq7pdM1FvfSyDwdFhdQa7dvsIYwo6Uz7Zp1wVkfw5rOJO3MpdWzoHsg==}
     engines: {node: '>=8.x'}
     peerDependencies:
       date-fns: '>= 2.x'
