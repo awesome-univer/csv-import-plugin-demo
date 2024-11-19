@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.4.2
     version: 0.4.2(@grpc/grpc-js@1.12.2)(react@18.3.1)(rxjs@7.8.1)
   '@univerjs/icons':
-    specifier: ^0.2.5
-    version: 0.2.5(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^0.2.7
+    version: 0.2.7(react-dom@18.3.1)(react@18.3.1)
   '@univerjs/sheets':
     specifier: 0.4.2
     version: 0.4.2(@grpc/grpc-js@1.12.2)(react@18.3.1)(rxjs@7.8.1)
@@ -763,8 +763,8 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@univerjs/icons@0.2.5(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-OfkOQoC5JR85T8vnsl/M2MkI5eeC0zUzQPluKT9p3ramJpSDyw0g4TCyzKpNZcCaVTMe90AOefwW3hEOZySFDA==}
+  /@univerjs/icons@0.2.7(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-eedEN4qz9+Oq/XjF/CRZMTHPeSl4eHL8ZW45nSksaOenqYIHWtsxEBZpE5N3rOWfpfDFmhJk0kNbpfpcNOsR7A==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -992,7 +992,7 @@ packages:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
-      magic-string: 0.30.12
+      magic-string: 0.30.13
       postcss: 8.4.49
       source-map-js: 1.2.1
     dev: false
@@ -1264,8 +1264,8 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /magic-string@0.30.12:
-    resolution: {integrity: sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==}
+  /magic-string@0.30.13:
+    resolution: {integrity: sha512-8rYBO+MsWkgjDSOvLomYnzhdwEG51olQ4zL5KXnNJWV5MNmrb4rTZdrtkhxjnD/QyZUqR/Z/XDsUs/4ej2nx0g==}
     requiresBuild: true
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
