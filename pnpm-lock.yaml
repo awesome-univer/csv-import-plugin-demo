@@ -661,7 +661,7 @@ packages:
       rc-input-number: 9.3.0(react-dom@18.3.1)(react@18.3.1)
       rc-menu: 9.16.0(react-dom@18.3.1)(react@18.3.1)
       rc-picker: 4.8.1(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
-      rc-segmented: 2.5.0(react-dom@18.3.1)(react@18.3.1)
+      rc-segmented: 2.6.0(react-dom@18.3.1)(react@18.3.1)
       rc-select: 14.16.3(react-dom@18.3.1)(react@18.3.1)
       rc-textarea: 1.8.2(react-dom@18.3.1)(react@18.3.1)
       rc-tooltip: 6.2.1(react-dom@18.3.1)(react@18.3.1)
@@ -1541,8 +1541,8 @@ packages:
       resize-observer-polyfill: 1.5.1
     dev: false
 
-  /rc-segmented@2.5.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-B28Fe3J9iUFOhFJET3RoXAPFJ2u47QvLSYcZWC4tFYNGPEjug5LAxEasZlA/PpAxhdOPqGWsGbSj7ftneukJnw==}
+  /rc-segmented@2.6.0(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-uItdhEFmCUsSBqpYwMYLW6JQ97Moyp4PGKwYvkdkgNQo9pwEDQ0z24KwEnYDast7/FYZLdUg7bs7GYBJJsFK+g==}
     peerDependencies:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
