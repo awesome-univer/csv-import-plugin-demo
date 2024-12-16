@@ -663,7 +663,7 @@ packages:
       rc-textarea: 1.8.2(react-dom@19.0.0)(react@19.0.0)
       rc-tooltip: 6.3.1(react-dom@19.0.0)(react@19.0.0)
       rc-util: 5.44.2(react-dom@19.0.0)(react@19.0.0)
-      rc-virtual-list: 3.16.0(react-dom@19.0.0)(react@19.0.0)
+      rc-virtual-list: 3.16.1(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-draggable: 4.4.6(react-dom@19.0.0)(react@19.0.0)
@@ -974,7 +974,7 @@ packages:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
-      magic-string: 0.30.15
+      magic-string: 0.30.17
       postcss: 8.4.49
       source-map-js: 1.2.1
     dev: false
@@ -1250,8 +1250,8 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /magic-string@0.30.15:
-    resolution: {integrity: sha512-zXeaYRgZ6ldS1RJJUrMrYgNJ4fdwnyI6tVqoiIhyCyv5IVTK9BU8Ic2l253GGETQHxI4HNUwhJ3fjDhKqEoaAw==}
+  /magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     requiresBuild: true
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1567,7 +1567,7 @@ packages:
       rc-motion: 2.9.4(react-dom@19.0.0)(react@19.0.0)
       rc-overflow: 1.3.2(react-dom@19.0.0)(react@19.0.0)
       rc-util: 5.44.2(react-dom@19.0.0)(react@19.0.0)
-      rc-virtual-list: 3.16.0(react-dom@19.0.0)(react@19.0.0)
+      rc-virtual-list: 3.16.1(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
     dev: false
@@ -1612,8 +1612,8 @@ packages:
       react-is: 18.3.1
     dev: false
 
-  /rc-virtual-list@3.16.0(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-tRpWBC0msU+MxFxnD6+y4v0P17Yzplf+mbiHrqRvfVanx0S4o0XV+2zu4vv7hM9nNfcucO+MPHivqpRT2lfnFQ==}
+  /rc-virtual-list@3.16.1(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-algM5UsB7vrlPNr9lsZEH8s9KHkP8XbT/Y0qylyPkiM8mIOlSJLjBNADcmbYPEQCm4zW82mZRJuVHNzqqN0EAQ==}
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '>=16.9.0'
