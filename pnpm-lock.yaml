@@ -636,7 +636,7 @@ packages:
       rc-dropdown: 4.2.1(react-dom@19.0.0)(react@19.0.0)
       rc-input: 1.7.2(react-dom@19.0.0)(react@19.0.0)
       rc-input-number: 9.4.0(react-dom@19.0.0)(react@19.0.0)
-      rc-menu: 9.16.0(react-dom@19.0.0)(react@19.0.0)
+      rc-menu: 9.16.1(react-dom@19.0.0)(react@19.0.0)
       rc-picker: 4.11.2(dayjs@1.11.13)(react-dom@19.0.0)(react@19.0.0)
       rc-segmented: 2.7.0(react-dom@19.0.0)(react@19.0.0)
       rc-select: 14.16.6(react-dom@19.0.0)(react@19.0.0)
@@ -1403,8 +1403,8 @@ packages:
       react-dom: 19.0.0(react@19.0.0)
     dev: false
 
-  /rc-menu@9.16.0(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-vAL0yqPkmXWk3+YKRkmIR8TYj3RVdEt3ptG2jCJXWNAvQbT0VJJdRyHZ7kG/l1JsZlB+VJq/VcYOo69VR4oD+w==}
+  /rc-menu@9.16.1(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-ghHx6/6Dvp+fw8CJhDUHFHDJ84hJE3BXNCzSgLdmNiFErWSOaZNsihDAsKq9ByTALo/xkNIwtDFGIl6r+RPXBg==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
