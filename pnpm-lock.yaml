@@ -7,46 +7,46 @@ settings:
 dependencies:
   '@univerjs/core':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/design':
     specifier: 0.6.1
     version: 0.6.1(react-dom@19.0.0)(react@19.0.0)
   '@univerjs/docs':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/docs-ui':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
   '@univerjs/engine-formula':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/engine-numfmt':
     specifier: 0.6.1
     version: 0.6.1
   '@univerjs/engine-render':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/icons':
     specifier: ^0.2.20
     version: 0.2.20(react-dom@19.0.0)(react@19.0.0)
   '@univerjs/sheets':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/sheets-formula':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/sheets-formula-ui':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
   '@univerjs/sheets-numfmt':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/sheets-ui':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
   '@univerjs/ui':
     specifier: 0.6.1
-    version: 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+    version: 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
 
 devDependencies:
   '@univerjs/vite-plugin':
@@ -593,19 +593,19 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
-  /@types/node@22.13.4:
-    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
+  /@types/node@22.13.5:
+    resolution: {integrity: sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==}
     dependencies:
       undici-types: 6.20.0
     dev: false
 
-  /@univerjs/core@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/core@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-ObZRc/cQa+SjKMFUBGiR5bbuNQqzKiU8ag4eJlJrMat9E4bNZeKYakYvRYVV/ns2R3IupemLNNL7B47HICVTOg==}
     peerDependencies:
       '@wendellhu/redi': 0.17.1
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.1)
+      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.2)
       '@wendellhu/redi': 0.17.1
       dayjs: 1.11.13
       fast-diff: 1.3.0
@@ -616,7 +616,7 @@ packages:
       numfmt: 2.5.2
       ot-json1: 1.0.2
       rbush: 4.0.1
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
     dev: false
@@ -655,22 +655,22 @@ packages:
       - moment
     dev: false
 
-  /@univerjs/docs-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3):
+  /@univerjs/docs-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3):
     resolution: {integrity: sha512-D7rgfuQ+AxXg0MoD2tg5xO+xZMil8oHTJS+luqZ4zpmlTpb+/Z2yw8JdTGwBh/fhIFMwD3lL5z6og/kiJIb7Sg==}
     peerDependencies:
       react: '>=16.9.0 || >=17 || >=18 || >=19'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/design': 0.6.1(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/drawing': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/drawing': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/icons': 0.2.20(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
       clsx: 2.1.1
       react: 19.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
@@ -681,44 +681,44 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/docs@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/docs@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-2IENeC9fEmT0zM7HQeT4zLaD8VJ/wqLSHuphsckh6j+WuHALCQMFA5jgWKsYZwKrQqW6ThseQiPiYJMsKNUT2Q==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      rxjs: 7.8.1
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/drawing@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/drawing@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-jhhT5QRc1CxuiugE8DDMOk0HlWMAxizRuVC7yNsSJeQCaGvNOKSVr06Hq3JFovC9cGQe3x+51ktWKxaTvSXaHQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       ot-json1: 1.0.2
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/engine-formula@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/engine-formula@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-uRWLyw/8myckFvggD7KGG8AvShd2GbJLSo+0GhklKugvW0pFGZVb5KUFP3bG5rqUvp4P6G+G3hbcbn9vfUDN/g==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
       '@flatten-js/interval-tree': 1.1.3
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.6.1
-      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       decimal.js: 10.5.0
       numfmt: 2.5.2
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
@@ -728,18 +728,18 @@ packages:
     resolution: {integrity: sha512-dmOGJEn1ruZa0JNY9NoVAW5FvA0VLb3vJin/ec2/433UBsC7CUHRlR0efIq0QZysBEFW3GlDH8d23YT6ju4Vfw==}
     dev: false
 
-  /@univerjs/engine-render@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/engine-render@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-t02YQVVgeh4wgLDY8gaZU1YkOQjw8R/UeXhK5ClML3WF4KS3hHryoQqRH4W/HMQHy9NCITMYenhh3kzFdTuteQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
       '@floating-ui/dom': 1.6.13
       '@floating-ui/utils': 0.2.9
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       cjk-regex: 3.1.0
       franc-min: 6.2.0
       opentype.js: 1.3.4
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
@@ -755,7 +755,7 @@ packages:
       react-dom: 19.0.0(react@19.0.0)
     dev: false
 
-  /@univerjs/protocol@0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.1):
+  /@univerjs/protocol@0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.2):
     resolution: {integrity: sha512-arQJP3emdEdV0qqE/Xl0LqSZS3Kvg71hsp4jzjFl7RkkR/HSe3vBXdgRcmVkWa+BIS29yyfvFdkAJhrvKIHgGA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
@@ -763,41 +763,41 @@ packages:
       rxjs: '>=7.8'
     dependencies:
       '@grpc/grpc-js': 1.12.6
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     dev: false
 
-  /@univerjs/rpc@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/rpc@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-+8Fnzh4bkmecsiOFpa5JYLYMOS0PqSbab33y8x1S0bAXHGfN4gU9FZF2PWuwdJU4v6KSqLp5HPMYjiwM0/F27A==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      rxjs: 7.8.1
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/sheets-formula-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3):
+  /@univerjs/sheets-formula-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3):
     resolution: {integrity: sha512-CE38YIXg0VpXFiA2SMFjVcQ7pmTgbuiIN1sYSAMXEYJLcz28nPKHtGlpv1qjns16wuF6n5Phwj4tQYZ2QNdH/w==}
     peerDependencies:
       react: '>=16.9.0 || >=17 || >=18 || >=19'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/design': 0.6.1(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/docs-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
-      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/docs-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
+      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/icons': 0.2.20(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/sheets-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/sheets-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
-      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/sheets-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/sheets-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
+      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
       clsx: 2.1.1
       react: 19.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
@@ -808,57 +808,57 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/sheets-formula@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/sheets-formula@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-VE0NkTQE/w1o1JNcwO4XtK4N5bNI1mj+cvR8J4wfFEEGnKU+kOUIP2kDjVycw3KTnvHD5mpJuo55MntVQ/w6DQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      rxjs: 7.8.1
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/sheets-numfmt@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/sheets-numfmt@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-UvWbk7vVHTBqX3ASLFcmyWJzKBkE3yk6G/TvQuWw0kOZOoLc4G5Vf5ssUodeEOUZJt7GeX29Suij+LVFSVUItg==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.6.1
-      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      rxjs: 7.8.1
+      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/sheets-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3):
+  /@univerjs/sheets-ui@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3):
     resolution: {integrity: sha512-8hckQD0CGdf/lEcUiXz9QaU04ZbSwEj3a9MBalgxR0zV/vZnpA4+5NvEFnP88zoX1S1JX3Aqz5D1T1rgcqn7hQ==}
     peerDependencies:
       react: '>=16.9.0 || >=17 || >=18 || >=19'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/design': 0.6.1(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/docs-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
-      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/docs': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/docs-ui': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
+      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.6.1
-      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/icons': 0.2.20(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.1)
-      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/telemetry': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3)
+      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.2)
+      '@univerjs/sheets': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/telemetry': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/ui': 0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3)
       clsx: 2.1.1
       react: 19.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
@@ -869,42 +869,42 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/sheets@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/sheets@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-3hKGMZpMhjJN2riWRTPJBnKBf0OtqC4AO4WkYXgomGfR6lljDXK+ezqj4TWwsPe+MsHXrw44KWYX3lcOrrpYiQ==}
     peerDependencies:
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      '@univerjs/engine-formula': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.6.1
-      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.1)
-      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
-      rxjs: 7.8.1
+      '@univerjs/protocol': 0.1.43(@grpc/grpc-js@1.12.6)(rxjs@7.8.2)
+      '@univerjs/rpc': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/telemetry@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1):
+  /@univerjs/telemetry@0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2):
     resolution: {integrity: sha512-5xxSMsbX7dTblR6m69DtcZqRO+RzO8vyIfd+QLnjfS5FxBAnmvh6PoCYKu8aVn9sqEu3c3F22FzRuhsNUNAgAg==}
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
     transitivePeerDependencies:
       - '@grpc/grpc-js'
       - '@wendellhu/redi'
       - rxjs
     dev: false
 
-  /@univerjs/ui@0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.1)(typescript@5.6.3):
+  /@univerjs/ui@0.6.1(@grpc/grpc-js@1.12.6)(react-dom@19.0.0)(react@19.0.0)(rxjs@7.8.2)(typescript@5.6.3):
     resolution: {integrity: sha512-9lxNrnoEq209JGHy5303ICW8b7k2yJHZlUsswtsdcOs3jZY12LqN53iN9GvNMRd8LcAPAH3MiWrKEL8HWUH8yA==}
     peerDependencies:
       react: '>=16.9.0 || >=17 || >=18 || >=19'
       react-dom: '>=16.9.0 || >=17 || >=18 || >=19'
       rxjs: '>=7.0.0'
     dependencies:
-      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/core': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/design': 0.6.1(react-dom@19.0.0)(react@19.0.0)
-      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.1)
+      '@univerjs/engine-render': 0.6.1(@grpc/grpc-js@1.12.6)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
       '@univerjs/icons': 0.2.20(react-dom@19.0.0)(react@19.0.0)
       '@wendellhu/redi': 0.17.1
       clsx: 2.1.1
@@ -913,7 +913,7 @@ packages:
       rc-util: 5.44.4(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     optionalDependencies:
       vue: 3.5.13(typescript@5.6.3)
     transitivePeerDependencies:
@@ -1332,7 +1332,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.13.4
+      '@types/node': 22.13.5
       long: 5.3.1
     dev: false
 
@@ -1702,8 +1702,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  /rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
     dependencies:
       tslib: 2.8.1
     dev: false
