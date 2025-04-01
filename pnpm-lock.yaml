@@ -1087,8 +1087,8 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
-  /@types/node@22.13.14:
-    resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
+  /@types/node@22.13.16:
+    resolution: {integrity: sha512-15tM+qA4Ypml/N7kyRdvfRjBQT2RL461uF1Bldn06K0Nzn1lY3nAPgHlsVrJxdZ9WhZiW0Fmc1lOYMtDsAuB3w==}
     dependencies:
       undici-types: 6.20.0
     dev: false
@@ -1141,7 +1141,7 @@ packages:
       react-draggable: 4.4.6(react-dom@19.1.0)(react@19.1.0)
       react-grid-layout: 1.5.1(react-dom@19.1.0)(react@19.1.0)
       react-transition-group: 4.4.5(react-dom@19.1.0)(react@19.1.0)
-      tailwind-merge: 3.0.2
+      tailwind-merge: 3.1.0
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
@@ -1846,7 +1846,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.13.14
+      '@types/node': 22.13.16
       long: 5.3.1
     dev: false
 
@@ -2267,8 +2267,8 @@ packages:
       ansi-regex: 5.0.1
     dev: false
 
-  /tailwind-merge@3.0.2:
-    resolution: {integrity: sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw==}
+  /tailwind-merge@3.1.0:
+    resolution: {integrity: sha512-aV27Oj8B7U/tAOMhJsSGdWqelfmudnGMdXIlMnk1JfsjwSjts6o8HyfN7SFH3EztzH4YH8kk6GbLTHzITJO39Q==}
     dev: false
 
   /tiny-inflate@1.0.3:
