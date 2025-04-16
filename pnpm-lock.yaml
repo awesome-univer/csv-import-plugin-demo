@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.6.9
     version: 0.6.9(@grpc/grpc-js@1.13.3)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
   '@univerjs/icons':
-    specifier: ^0.2.35
-    version: 0.2.35(react-dom@19.1.0)(react@19.1.0)
+    specifier: ^0.3.0
+    version: 0.3.0(react-dom@19.1.0)(react@19.1.0)
   '@univerjs/sheets':
     specifier: 0.6.9
     version: 0.6.9(@grpc/grpc-js@1.13.3)(@wendellhu/redi@0.17.1)(rxjs@7.8.2)
@@ -356,7 +356,7 @@ packages:
     dependencies:
       lodash.camelcase: 4.3.0
       long: 5.3.1
-      protobufjs: 7.4.0
+      protobufjs: 7.5.0
       yargs: 17.7.2
     dev: false
 
@@ -1251,6 +1251,16 @@ packages:
       react-dom: 19.1.0(react@19.1.0)
     dev: false
 
+  /@univerjs/icons@0.3.0(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-DqxWQk6HyRRwgXFb10kXXEHRqn+4E29VUqCkxyxcf12qhG4IaRecx9socRkI40RvLicF094Luzmwhfh+EtGxWQ==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+    dev: false
+
   /@univerjs/protocol@0.1.45(@grpc/grpc-js@1.13.3)(rxjs@7.8.2):
     resolution: {integrity: sha512-pdQR6Im6gbmge7UgbyQCSMuX3mn3fCNafk4MmCkn5NbEluOURVxhshn6jfEHLraUyw+vz/ghwBiouVHR+n1C2g==}
     engines: {node: '>=18.0.0', pnpm: '>=10.0.0'}
@@ -1831,8 +1841,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /protobufjs@7.4.0:
-    resolution: {integrity: sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==}
+  /protobufjs@7.5.0:
+    resolution: {integrity: sha512-Z2E/kOY1QjoMlCytmexzYfDm/w5fKAiRwpSzGtdnXW1zC88Z2yXazHHrOtwCzn+7wSxyE8PYM4rvVcMphF9sOA==}
     engines: {node: '>=12.0.0'}
     requiresBuild: true
     dependencies:
