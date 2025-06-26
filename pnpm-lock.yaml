@@ -75,13 +75,13 @@ packages:
     dev: false
     optional: true
 
-  /@babel/parser@7.27.5:
-    resolution: {integrity: sha512-OsQd175SxWkGlzbny8J3K8TnnDD0N3lrIUtB92xwyRpzaenGZhxDvxN/JgU00U3CDZNj9tPuDJ5H0WS4Nt3vKg==}
+  /@babel/parser@7.27.7:
+    resolution: {integrity: sha512-qnzXzDXdr/po3bOTbTIQZ7+TxNKxpkN5IifVLXS+r7qwynkZfPyjZfE7hCXbo7IoO9TNcSyibgONsf2HauUd3Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@babel/types': 7.27.6
+      '@babel/types': 7.27.7
     dev: false
     optional: true
 
@@ -90,8 +90,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  /@babel/types@7.27.6:
-    resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
+  /@babel/types@7.27.7:
+    resolution: {integrity: sha512-8OLQgDScAOHXnAz2cV+RfzzNMipuLVBz2biuAJFMV9bfkNf393je3VM8CLkjQodW5+iWsSJdSgSWT6rsZoXHPw==}
     engines: {node: '>=6.9.0'}
     requiresBuild: true
     dependencies:
@@ -1203,7 +1203,7 @@ packages:
       rc-virtual-list: 3.19.1(react-dom@19.1.0)(react@19.1.0)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      react-grid-layout: 1.5.1(react-dom@19.1.0)(react@19.1.0)
+      react-grid-layout: 1.5.2(react-dom@19.1.0)(react@19.1.0)
       react-transition-group: 4.4.5(react-dom@19.1.0)(react@19.1.0)
       sonner: 2.0.5(react-dom@19.1.0)(react@19.1.0)
       tailwind-merge: 3.3.1
@@ -1497,7 +1497,7 @@ packages:
     resolution: {integrity: sha512-Xe+AittLbAyV0pabcN7cP7/BenRBNcteM4aSDCtRvGw0d9OL+HG1u/XHLY/kt1q4fyMeZYXyIYrsHuPSiDPosA==}
     requiresBuild: true
     dependencies:
-      '@babel/parser': 7.27.5
+      '@babel/parser': 7.27.7
       '@vue/shared': 3.5.17
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -1518,7 +1518,7 @@ packages:
     resolution: {integrity: sha512-rQQxbRJMgTqwRugtjw0cnyQv9cP4/4BxWfTdRBkqsTfLOHWykLzbOc3C4GGzAmdMDxhzU/1Ija5bTjMVrddqww==}
     requiresBuild: true
     dependencies:
-      '@babel/parser': 7.27.5
+      '@babel/parser': 7.27.7
       '@vue/compiler-core': 3.5.17
       '@vue/compiler-dom': 3.5.17
       '@vue/compiler-ssr': 3.5.17
@@ -1637,11 +1637,6 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
-    dev: false
-
-  /clsx@1.2.1:
-    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
-    engines: {node: '>=6'}
     dev: false
 
   /clsx@2.1.1:
@@ -2071,20 +2066,20 @@ packages:
       scheduler: 0.26.0
     dev: false
 
-  /react-draggable@4.4.6(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-LtY5Xw1zTPqHkVmtM3X8MUOxNDOUhv/khTgBgrUvwaS064bwVvxT+q5El0uUFNx5IEPKXuRejr7UqLwBIg5pdw==}
+  /react-draggable@4.5.0(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-VC+HBLEZ0XJxnOxVAZsdRi8rD04Iz3SiiKOoYzamjylUcju/hP9np/aZdLHf/7WOD268WMoNJMvYfB5yAK45cw==}
     peerDependencies:
       react: '>= 16.3.0'
       react-dom: '>= 16.3.0'
     dependencies:
-      clsx: 1.2.1
+      clsx: 2.1.1
       prop-types: 15.8.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     dev: false
 
-  /react-grid-layout@1.5.1(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-4Fr+kKMk0+m1HL/BWfHxi/lRuaOmDNNKQDcu7m12+NEYcen20wIuZFo789u3qWCyvUsNUxCiyf0eKq4WiJSNYw==}
+  /react-grid-layout@1.5.2(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-vT7xmQqszTT+sQw/LfisrEO4le1EPNnSEMVHy6sBZyzS3yGkMywdOd+5iEFFwQwt0NSaGkxuRmYwa1JsP6OJdw==}
     peerDependencies:
       react: '>= 16.3.0'
       react-dom: '>= 16.3.0'
@@ -2094,7 +2089,7 @@ packages:
       prop-types: 15.8.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      react-draggable: 4.4.6(react-dom@19.1.0)(react@19.1.0)
+      react-draggable: 4.5.0(react-dom@19.1.0)(react@19.1.0)
       react-resizable: 3.0.5(react-dom@19.1.0)(react@19.1.0)
       resize-observer-polyfill: 1.5.1
     dev: false
@@ -2147,7 +2142,7 @@ packages:
     dependencies:
       prop-types: 15.8.1
       react: 19.1.0
-      react-draggable: 4.4.6(react-dom@19.1.0)(react@19.1.0)
+      react-draggable: 4.5.0(react-dom@19.1.0)(react@19.1.0)
     transitivePeerDependencies:
       - react-dom
     dev: false
