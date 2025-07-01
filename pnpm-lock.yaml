@@ -358,8 +358,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@jridgewell/sourcemap-codec@1.5.2:
-    resolution: {integrity: sha512-gKYheCylLIedI+CSZoDtGkFV9YEBxRRVcfCH7OfAqh4TyUyRjEE6WVE/aXDXX0p8BIe/QgLcaAoI0220KRRFgg==}
+  /@jridgewell/sourcemap-codec@1.5.3:
+    resolution: {integrity: sha512-AiR5uKpFxP3PjO4R19kQGIMwxyRyPuXmKEEy301V1C0+1rVjS94EZQXf1QKZYN8Q0YM+estSPhmx5JwNftv6nw==}
     requiresBuild: true
     dev: false
     optional: true
@@ -1149,8 +1149,8 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
-  /@types/node@24.0.7:
-    resolution: {integrity: sha512-YIEUUr4yf8q8oQoXPpSlnvKNVKDQlPMWrmOcgzoduo7kvA2UF0/BwJ/eMKFTiTtkNL17I0M6Xe2tvwFU7be6iw==}
+  /@types/node@24.0.8:
+    resolution: {integrity: sha512-WytNrFSgWO/esSH9NbpWUfTMGQwCGIKfCmNlmFDNiI5gGhgMmEA+V1AEvKLeBNvvtBnailJtkrEa2OIISwrVAA==}
     dependencies:
       undici-types: 7.8.0
     dev: false
@@ -1170,7 +1170,7 @@ packages:
       kdbush: 4.0.2
       lodash-es: 4.17.21
       nanoid: 5.1.5
-      numfmt: 3.2.2
+      numfmt: 3.2.3
       ot-json1: 1.0.2
       rbush: 4.0.1
       rxjs: 7.8.2
@@ -1819,7 +1819,7 @@ packages:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     requiresBuild: true
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.2
+      '@jridgewell/sourcemap-codec': 1.5.3
     dev: false
     optional: true
 
@@ -1838,8 +1838,8 @@ packages:
     hasBin: true
     dev: false
 
-  /numfmt@3.2.2:
-    resolution: {integrity: sha512-vAdkKhb+8D1ebZcPx5TdUmPnzNYhzKGA+oVy+BoENFydDWljaZDci0wWWjNfvOUcXCdgKhwS08ErdTe+VzuQ+w==}
+  /numfmt@3.2.3:
+    resolution: {integrity: sha512-q5vjJSiuomxYNNVhB/TWqjtctZz+fnscUchvwonutXZ/neY2XLw6z4q3DS4ijLDrP5Y/tgrVeP1/7PjgHRoZuw==}
     dev: false
 
   /object-assign@4.1.1:
@@ -1914,7 +1914,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.0.7
+      '@types/node': 24.0.8
       long: 5.3.2
     dev: false
 
