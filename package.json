@@ -11,20 +11,20 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@univerjs/core": "0.8.3",
-    "@univerjs/design": "0.8.3",
-    "@univerjs/docs": "0.8.3",
-    "@univerjs/docs-ui": "0.8.3",
-    "@univerjs/engine-formula": "0.8.3",
-    "@univerjs/engine-numfmt": "0.8.3",
-    "@univerjs/engine-render": "0.8.3",
+    "@univerjs/core": "0.9.1",
+    "@univerjs/design": "0.9.1",
+    "@univerjs/docs": "0.9.1",
+    "@univerjs/docs-ui": "0.9.1",
+    "@univerjs/engine-formula": "0.9.1",
+    "@univerjs/engine-numfmt": "0.9.1",
+    "@univerjs/engine-render": "0.9.1",
     "@univerjs/icons": "^0.4.4",
-    "@univerjs/sheets": "0.8.3",
-    "@univerjs/sheets-formula": "0.8.3",
-    "@univerjs/sheets-formula-ui": "0.8.3",
-    "@univerjs/sheets-numfmt": "0.8.3",
-    "@univerjs/sheets-ui": "0.8.3",
-    "@univerjs/ui": "0.8.3"
+    "@univerjs/sheets": "0.9.1",
+    "@univerjs/sheets-formula": "0.9.1",
+    "@univerjs/sheets-formula-ui": "0.9.1",
+    "@univerjs/sheets-numfmt": "0.9.1",
+    "@univerjs/sheets-ui": "0.9.1",
+    "@univerjs/ui": "0.9.1"
   },
   "devDependencies": {
     "@univerjs/vite-plugin": "^0.5.1",
