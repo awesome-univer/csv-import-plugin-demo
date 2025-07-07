@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.9.1
     version: 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
   '@univerjs/icons':
-    specifier: ^0.4.4
-    version: 0.4.4(react-dom@19.1.0)(react@19.1.0)
+    specifier: ^0.4.6
+    version: 0.4.6(react-dom@19.1.0)(react@19.1.0)
   '@univerjs/sheets':
     specifier: 0.9.1
     version: 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
@@ -1152,7 +1152,7 @@ packages:
       '@radix-ui/react-slot': 1.2.3(react@19.1.0)
       '@radix-ui/react-tooltip': 1.2.7(react-dom@19.1.0)(react@19.1.0)
       '@rc-component/trigger': 2.2.7(react-dom@19.1.0)(react@19.1.0)
-      '@univerjs/icons': 0.4.4(react-dom@19.1.0)(react@19.1.0)
+      '@univerjs/icons': 0.4.6(react-dom@19.1.0)(react@19.1.0)
       '@univerjs/themes': 0.9.1
       class-variance-authority: 0.7.1
       clsx: 2.1.1
@@ -1186,7 +1186,7 @@ packages:
       '@univerjs/docs': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/drawing': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.4(react-dom@19.1.0)(react@19.1.0)
+      '@univerjs/icons': 0.4.6(react-dom@19.1.0)(react@19.1.0)
       '@univerjs/ui': 0.9.1(@grpc/grpc-js@1.13.4)(react-dom@19.1.0)(react@19.1.0)(rxjs@7.8.2)
       react: 19.1.0
       rxjs: 7.8.2
@@ -1236,7 +1236,7 @@ packages:
       '@univerjs/core': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.9.1
       '@univerjs/rpc': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
-      decimal.js: 10.5.0
+      decimal.js: 10.6.0
       rxjs: 7.8.2
     transitivePeerDependencies:
       - '@grpc/grpc-js'
@@ -1264,8 +1264,8 @@ packages:
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/icons@0.4.4(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-l3UpCm5GU8shuw+p81CmatxZm7+PP0gqso2tTx5JEParzM63fMtyXCRPIbkotDZ6fIL9opdIuHhDrAsa3SkSKg==}
+  /@univerjs/icons@0.4.6(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-TAazMtFR+Jt82E3reHXNZXkSc8/5yV5A0QnSG3MIxhVtGMLIbBupceVjd46tCjogUd965iW+kZg4CjqvWvLU4A==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1309,7 +1309,7 @@ packages:
       '@univerjs/docs-ui': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(react-dom@19.1.0)(react@19.1.0)(rxjs@7.8.2)
       '@univerjs/engine-formula': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.4(react-dom@19.1.0)(react@19.1.0)
+      '@univerjs/icons': 0.4.6(react-dom@19.1.0)(react@19.1.0)
       '@univerjs/sheets': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/sheets-formula': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/sheets-ui': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(react-dom@19.1.0)(react@19.1.0)(rxjs@7.8.2)
@@ -1370,7 +1370,7 @@ packages:
       '@univerjs/engine-formula': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/engine-numfmt': 0.9.1
       '@univerjs/engine-render': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.4(react-dom@19.1.0)(react@19.1.0)
+      '@univerjs/icons': 0.4.6(react-dom@19.1.0)(react@19.1.0)
       '@univerjs/protocol': 0.1.46(@grpc/grpc-js@1.13.4)(rxjs@7.8.2)
       '@univerjs/sheets': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/telemetry': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
@@ -1428,7 +1428,7 @@ packages:
       '@univerjs/core': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
       '@univerjs/design': 0.9.1(react-dom@19.1.0)(react@19.1.0)
       '@univerjs/engine-render': 0.9.1(@grpc/grpc-js@1.13.4)(@wendellhu/redi@0.18.3)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.4(react-dom@19.1.0)(react@19.1.0)
+      '@univerjs/icons': 0.4.6(react-dom@19.1.0)(react@19.1.0)
       '@wendellhu/redi': 0.18.3
       localforage: 1.10.0
       react: 19.1.0
@@ -1529,8 +1529,8 @@ packages:
     resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
     dev: false
 
-  /decimal.js@10.5.0:
-    resolution: {integrity: sha512-8vDa8Qxvr/+d94hSh5P3IJwI5t8/c0KsMp+g8bNw9cY2icONa5aPfvKeieW1WlG0WQYwwhJ7mjui2xtiePQSXw==}
+  /decimal.js@10.6.0:
+    resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
     dev: false
 
   /detect-node-es@1.1.0:
