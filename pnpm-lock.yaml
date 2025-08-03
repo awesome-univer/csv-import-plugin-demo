@@ -1164,7 +1164,7 @@ packages:
       react-dom: 19.1.1(react@19.1.1)
       react-grid-layout: 1.5.2(react-dom@19.1.1)(react@19.1.1)
       react-transition-group: 4.4.5(react-dom@19.1.1)(react@19.1.1)
-      sonner: 2.0.6(react-dom@19.1.1)(react@19.1.1)
+      sonner: 2.0.7(react-dom@19.1.1)(react@19.1.1)
       tailwind-merge: 2.6.0
     transitivePeerDependencies:
       - '@types/react'
@@ -2020,8 +2020,8 @@ packages:
     resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
     dev: false
 
-  /sonner@2.0.6(react-dom@19.1.1)(react@19.1.1):
-    resolution: {integrity: sha512-yHFhk8T/DK3YxjFQXIrcHT1rGEeTLliVzWbO0xN8GberVun2RiBnxAjXAYpZrqwEVHBG9asI/Li8TAAhN9m59Q==}
+  /sonner@2.0.7(react-dom@19.1.1)(react@19.1.1):
+    resolution: {integrity: sha512-W6ZN4p58k8aDKA4XPcx2hpIQXBRAgyiWVkYhT7CvK6D3iAu7xjvVyhQHg2/iaKJZ1XVJ4r7XuwGL+WGEK37i9w==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
       react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
