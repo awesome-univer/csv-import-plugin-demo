@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.10.10
     version: 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
   '@univerjs/icons':
-    specifier: ^0.4.8
-    version: 0.4.8(react-dom@19.1.1)(react@19.1.1)
+    specifier: ^0.4.9
+    version: 0.4.9(react-dom@19.1.1)(react@19.1.1)
   '@univerjs/sheets':
     specifier: 0.10.10
     version: 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
@@ -1126,7 +1126,7 @@ packages:
       '@radix-ui/react-popover': 1.1.15(react-dom@19.1.1)(react@19.1.1)
       '@radix-ui/react-separator': 1.1.7(react-dom@19.1.1)(react@19.1.1)
       '@radix-ui/react-slot': 1.2.3(react@19.1.1)
-      '@univerjs/icons': 0.4.8(react-dom@19.1.1)(react@19.1.1)
+      '@univerjs/icons': 0.4.9(react-dom@19.1.1)(react@19.1.1)
       '@univerjs/themes': 0.10.10
       class-variance-authority: 0.7.1
       clsx: 2.1.1
@@ -1156,7 +1156,7 @@ packages:
       '@univerjs/docs': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/drawing': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.8(react-dom@19.1.1)(react@19.1.1)
+      '@univerjs/icons': 0.4.9(react-dom@19.1.1)(react@19.1.1)
       '@univerjs/ui': 0.10.10(@grpc/grpc-js@1.14.0)(react-dom@19.1.1)(react@19.1.1)(rxjs@7.8.2)
       react: 19.1.1
       rxjs: 7.8.2
@@ -1247,8 +1247,8 @@ packages:
       - '@wendellhu/redi'
     dev: false
 
-  /@univerjs/icons@0.4.8(react-dom@19.1.1)(react@19.1.1):
-    resolution: {integrity: sha512-3/ZeTS8c8Hh1WRs9KfhDBH/ibC6l+C6LqznEwhTdl83dqhdRbWpM8AKaEHjGmyIhZYS8y3jhPGqg0RMBgD9SSw==}
+  /@univerjs/icons@0.4.9(react-dom@19.1.1)(react@19.1.1):
+    resolution: {integrity: sha512-v70XL7lNuTrSipMkCavbzHNhflCm1A/xzpbFZGtTjevR7rb/Y8QMU3fJG+YmCR+cIGc2FQlMwBNo7LXr+m0xvg==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1292,7 +1292,7 @@ packages:
       '@univerjs/docs-ui': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(react-dom@19.1.1)(react@19.1.1)(rxjs@7.8.2)
       '@univerjs/engine-formula': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.8(react-dom@19.1.1)(react@19.1.1)
+      '@univerjs/icons': 0.4.9(react-dom@19.1.1)(react@19.1.1)
       '@univerjs/sheets': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/sheets-formula': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/sheets-ui': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(react-dom@19.1.1)(react@19.1.1)(rxjs@7.8.2)
@@ -1348,7 +1348,7 @@ packages:
       '@univerjs/docs-ui': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(react-dom@19.1.1)(react@19.1.1)(rxjs@7.8.2)
       '@univerjs/engine-formula': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/engine-render': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.8(react-dom@19.1.1)(react@19.1.1)
+      '@univerjs/icons': 0.4.9(react-dom@19.1.1)(react@19.1.1)
       '@univerjs/protocol': 0.1.46(@grpc/grpc-js@1.14.0)(rxjs@7.8.2)
       '@univerjs/sheets': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
       '@univerjs/telemetry': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
@@ -1402,7 +1402,7 @@ packages:
       '@univerjs/core': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.0)(rxjs@7.8.2)
       '@univerjs/design': 0.10.10(react-dom@19.1.1)(react@19.1.1)
       '@univerjs/engine-render': 0.10.10(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.0)(rxjs@7.8.2)
-      '@univerjs/icons': 0.4.8(react-dom@19.1.1)(react@19.1.1)
+      '@univerjs/icons': 0.4.9(react-dom@19.1.1)(react@19.1.1)
       '@wendellhu/redi': 1.0.0(react@19.1.1)
       localforage: 1.10.0
       react: 19.1.1
