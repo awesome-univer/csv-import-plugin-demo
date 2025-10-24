@@ -27,8 +27,8 @@ dependencies:
     specifier: 0.10.12
     version: 0.10.12(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
   '@univerjs/icons':
-    specifier: ^0.4.9
-    version: 0.4.9(react-dom@19.2.0)(react@19.2.0)
+    specifier: ^1.0.2
+    version: 1.0.2(react-dom@19.2.0)(react@19.2.0)
   '@univerjs/sheets':
     specifier: 0.10.12
     version: 0.10.12(@grpc/grpc-js@1.14.0)(@wendellhu/redi@1.0.1)(rxjs@7.8.2)
@@ -1209,6 +1209,16 @@ packages:
 
   /@univerjs/icons@0.4.9(react-dom@19.2.0)(react@19.2.0):
     resolution: {integrity: sha512-v70XL7lNuTrSipMkCavbzHNhflCm1A/xzpbFZGtTjevR7rb/Y8QMU3fJG+YmCR+cIGc2FQlMwBNo7LXr+m0xvg==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+    dev: false
+
+  /@univerjs/icons@1.0.2(react-dom@19.2.0)(react@19.2.0):
+    resolution: {integrity: sha512-aNO/KSqVubVpoUdtYfCVpdC3HgS24NH0lCFzz0TU+fvHg+QzsQgxg9+sfjKMYIpMHs/6UXSyv217SaHzsWQlWA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
